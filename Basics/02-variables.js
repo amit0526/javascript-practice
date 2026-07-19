@@ -21,17 +21,17 @@ b = temp;
 /** Destructuring Method */
 let c = 3;
 let d = 4;
-[c, d] = [d, c]; // Nice job! This is the modern standard.
+[c, d] = [d, c];
 
 // 15. Create variables for first and last name and print the full name.
-const firstName = "Amit"; // Semantic naming is better than str1
-const lastName = "Anand"; // Semantic naming is better than str2
-// console.log(`${firstName} ${lastName}`); // FIXED: Template literal adds the required space cleanly
+const firstName = "Amit"; 
+const lastName = "Anand"; 
+// console.log(`${firstName} ${lastName}`);
 
 // 16. Store a price and quantity and calculate the total.
 const price = 400;
 const quantity = 4;
-const total = price * quantity; // FIXED: Multiplied variables instead of hardcoded numbers
+const total = price * quantity;
 // console.log(`The calculation of total is ${total}`);
 
 // 17. Change a variable value after declaration.
@@ -39,7 +39,7 @@ let val1 = 2;
 val1 = 5;
 
 // 18. Use const for PI.
-const PI = 3.14; // Correctly used upper case for constant declaration!
+const PI = 3.14;
 
 // 19. Create three variables and print them in one console.log().
 const one = 2;
@@ -50,4 +50,4 @@ const three = 4;
 // 20. Store a boolean value in a variable.
 const isloggedIn = true;
 const hasPermission = false;
-// console.log(isloggedIn, hasPermission);
+console.log(isloggedIn, hasPermission);
