@@ -7,7 +7,7 @@ const name = "Amit";
 const age = 25;
 
 // 13. Store two numbers and print their sum.
-const num1 = 20;
+const num1 = 10;
 const num2 = 30;
 // console.log(num1 + num2);
 
