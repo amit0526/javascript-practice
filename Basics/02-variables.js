@@ -1,52 +1,53 @@
 /*================= Variables(11–20) ============ */
 
-// 11.Create a variable named name.
-
+// 11. Create a variable named name.
 const name = "Amit";
-// console.log(name);
 
-// 12.Store your age in a variable.
-
+// 12. Store your age in a variable.
 const age = 25;
-// console.log(age);
 
-// 13.Store two numbers and print their sum.
-
+// 13. Store two numbers and print their sum.
 const num1 = 20;
 const num2 = 30;
-// console.log(num1 + num2)
+// console.log(num1 + num2);
 
-// 14.Swap two variables.
-
+// 14. Swap two variables.
 let a = 5;
-let b = 3;   
-
+let b = 3;
 let temp = a;
 a = b;
 b = temp;
-// console.log(a)
-// console.log(b)
 
-/** Destructuring Method   */
-
+/** Destructuring Method */
 let c = 3;
 let d = 4;
-[c, d] = [d,c]
-// console.log(c);
-// console.log(d);
+[c, d] = [d, c]; // Nice job! This is the modern standard.
 
-// 15.Create variables for first and last name and print the full name.
+// 15. Create variables for first and last name and print the full name.
+const firstName = "Amit"; // Semantic naming is better than str1
+const lastName = "Anand"; // Semantic naming is better than str2
+// console.log(`${firstName} ${lastName}`); // FIXED: Template literal adds the required space cleanly
 
-const str1 = "Amit";
-const str2 = "Anand";
-console.log(str1 + str2);
-console.log(str1, str2);
-
-// 16.Store a price and quantity and calculate the total.
-
+// 16. Store a price and quantity and calculate the total.
 const price = 400;
 const quantity = 4;
-const total = 4 * 400;
-console.log(`The calculate of total is ${total}`)
+const total = price * quantity; // FIXED: Multiplied variables instead of hardcoded numbers
+// console.log(`The calculation of total is ${total}`);
 
-// 17.Change a variable value after declaration.
+// 17. Change a variable value after declaration.
+let val1 = 2;
+val1 = 5;
+
+// 18. Use const for PI.
+const PI = 3.14; // Correctly used upper case for constant declaration!
+
+// 19. Create three variables and print them in one console.log().
+const one = 2;
+const two = 3;
+const three = 4;
+// console.log(one, two, three);
+
+// 20. Store a boolean value in a variable.
+const isloggedIn = true;
+const hasPermission = false;
+// console.log(isloggedIn, hasPermission);
