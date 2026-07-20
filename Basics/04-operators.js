@@ -51,19 +51,7 @@ if (num5 >= num6) {
   // console.log("greater");
 } 
 
-// 40. Use logical AND and OR.
-const hasAccount = true;
-const isLoggedIn = false;
 
-// Logical OR (||) needs only one side to be true
-if (hasAccount || isLoggedIn) {
-  console.log("Welcome visitor!"); 
-}
-
-// Logical AND (&&) needs both sides to be true
-if (hasAccount && !isLoggedIn) {
-  console.log("Please log in to your account."); 
-}
 
 
 
