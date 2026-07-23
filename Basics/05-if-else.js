@@ -87,3 +87,12 @@ const prompt = require('prompt-sync')();
 //   console.log("F");
 // }
 
+ // 49.Check whether a character is a vowel.
+// let char = prompt("Enter your character: ");
+// if (char === 'a' || char === 'A' || char === 'e' || char === 'E' || char === 'i' || char === 'I' || char === 'u' || char === "U" || char === 'o' || char === 'O') {
+//   console.log("Vowel");
+//   } else {
+//   console.log("Consonant");
+// }
+
+ // 50.Build a simple calculator using if-else.
