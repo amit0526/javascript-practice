@@ -4,7 +4,7 @@
 const prompt = require('prompt-sync')();
 // let num = Number(prompt("enter your number: "));
 
-// if (num%2==0) {
+// if (num%2===0) {
 //   console.log("Even");
 // } else {
 //   console.log("odd");
@@ -43,3 +43,47 @@ const prompt = require('prompt-sync')();
 // } else {
 //    console.log(`${three} largest than ${one} and ${two}`);
 // }
+
+// 45.Check if a person can vote.
+// let age = Number(prompt("Enter your age: "));
+
+// if (age>18) {
+//   console.log("You can vote");
+// } else {
+//   console.log("Youc can't vote!");
+// }
+
+// 46.Check if a number is divisible by 5.
+// let n = Number(prompt("Enter your number: "));
+
+// if (n%5===0) {
+//   console.log(`${n} divisible by 5`);
+// } else {
+//   console.log(`${n} not divisible by 5`);
+// }
+
+// 47. Check if a year is a leap year.
+// let isLeapyear = Number(prompt("Enter your year: "));
+// if ((isLeapyear % 4 === 0) && (isLeapyear % 100 !== 0)) {
+//   console.log(`${isLeapyear} is leap year`);
+  
+// } else {
+//   console.log(`${isLeapyear} is not leap year`);
+// }
+
+// 48.Grade calculator (A, B, C, D, F).
+
+// let marks = Number(prompt("Enter your: "));
+
+// if (marks >= 85) {
+//   console.log("A");
+// } else if ((marks < 85) && (marks >= 70)) {
+//   console.log("B");
+// } else if ((marks < 70) && (marks >= 55)){
+//   console.log("C");
+// } else if ((marks < 55) && (marks >= 35)) {
+//   console.log("D");
+// } else {
+//   console.log("F");
+// }
+
